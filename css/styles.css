@@ -85,3 +85,12 @@ img {
     text-align: center;
 }
 
+button {
+    background-color: #3882F6;
+    color: white;
+    width: fit-content;
+    padding: 4px 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+}
