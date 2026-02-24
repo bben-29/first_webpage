@@ -62,6 +62,7 @@ img {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 96px;
+    gap: 32px;
 }
 
 .title_card {
