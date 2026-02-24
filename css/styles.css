@@ -21,3 +21,15 @@ ul {
     display: flex;
     gap: 16px;
 }
+
+img {
+    width: 400px;
+    height: 200px;
+}
+
+.title_card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    flex-wrap: wrap;
+}
