@@ -10,8 +10,14 @@ body {
     background-color: #1F2937;
     color: white;
     border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 32px;
+    align-items: center;
 }
 
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 16px;
 }
