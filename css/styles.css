@@ -9,7 +9,6 @@ body {
 .header {
     background-color: #1F2937;
     color: white;
-    border: 1px solid white;
     display: flex;
     justify-content: space-between;
     padding: 8px 32px;
@@ -27,9 +26,18 @@ img {
     height: 200px;
 }
 
+.subheader {
+    display: flex;
+    gap: 24px;
+    padding: 24px 32px;
+    margin: 0;
+    background-color: #1F2937;
+    color: white;
+}
+
 .title_card {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 250px;
     flex-wrap: wrap;
 }
