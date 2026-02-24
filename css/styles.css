@@ -6,17 +6,27 @@ body {
     font-size: 18px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 0;
+}
+
+.page_header {
+    background-color: #1F2937;
+    padding: 24px 240px 24px 240px;
 }
 
 .header {
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 120px 32px 120px;
-    box-sizing: border-box;
+    margin-bottom: 96px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 #title {
@@ -41,8 +51,8 @@ ul {
 }
 
 img {
-    width: 400px;
-    height: 200px;
+    width: 480px;
+    height: 300px;
 }
 
 .subheader {
@@ -50,8 +60,8 @@ img {
     background-color: #1F2937;
     color: white;
     justify-content: space-between;
-    padding: 16px 120px 32px 120px;
     align-items: center;
+    margin-bottom: 96px;
 }
 
 .title_card {
@@ -60,7 +70,7 @@ img {
     width: 400px;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 8px;
+    gap: 16px;
 }
 
 .placeholder {
@@ -118,10 +128,10 @@ button {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 32px;
-    align-items: center;
+    padding: 32px 280px;
     gap: 8px;
     color: #1F2937;
+    justify-content: space-between;
 }
 
 #quote {
@@ -143,7 +153,7 @@ button {
     display: flex;
     justify-content: space-between;
     padding: 32px 72px;
-    margin: 48px 60px;
+    margin: 48px 240px;
     border-radius: 6px;
     gap: 32px;
 }
